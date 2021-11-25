@@ -1,0 +1,22 @@
+{
+  "name": "agilizei-bootcamp",
+  "version": "1.0.0",
+  "description": "Repositório do bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/george-mathias/agilizei-bootcamp.git"
+  },
+  "author": "George Mathias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/george-mathias/agilizei-bootcamp/issues"
+  },
+  "homepage": "https://github.com/george-mathias/agilizei-bootcamp#readme",
+  "devDependencies": {
+    "cypress": "^9.1.0"
+  }
+}
