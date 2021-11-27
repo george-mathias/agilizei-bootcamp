@@ -9,3 +9,6 @@ Repositório do bootcamp
 
 ## instalando o spok (realiza teste de contrato)
 - npm install bahmutov/cy-spok --save-dev
+
+## documentação spok
+- github.com/thlorenz/spok#spoktype
