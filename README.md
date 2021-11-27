@@ -11,4 +11,4 @@ Repositório do bootcamp
 - npm install bahmutov/cy-spok --save-dev
 
 ## documentação spok
-- github.com/thlorenz/spok#spoktype
+- https://github.com/bahmutov/cy-spok
