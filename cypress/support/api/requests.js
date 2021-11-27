@@ -7,6 +7,13 @@ class Requests {
         })
     }
 
+    getBooking() {
+        return cy.request({
+            url: "booking/2",
+            method: "GET"
+        })
+    }
+
 }
 
 export default new Requests()
