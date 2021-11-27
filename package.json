@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/george-mathias/agilizei-bootcamp#readme",
   "devDependencies": {
+    "cy-spok": "github:bahmutov/cy-spok",
     "cypress": "^8.5.0"
   }
 }
