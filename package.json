@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/george-mathias/agilizei-bootcamp#readme",
   "devDependencies": {
-    "cypress": "^9.1.0"
+    "cypress": "^8.5.0"
   }
 }
