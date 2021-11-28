@@ -6,19 +6,18 @@ import assertions from '../support/api/assertions'
 
 context('Booking', () => {
     it('validar o contrato do GET booking', () => {
+        let bookingid = null
         req.getBooking().then(getBookingResponse => {
             assertions.validateContractOf(getBookingResponse, schemas.getBookingSchema())
         })
     });
-});
 
-// {
-//     "firstname": "Sally",
-//     "lastname":"Smith",
-//     "totalprice":176,
-//     "depositpaid":true,
-//     "bookingdates": {
-//         "checkin":"2016 - 11 - 07",
-//         "checkout":"2017 - 10 - 10"
-//     }
-// }
+    it('criar uma reserva com sucesso', () => {
+        
+        req.postBooking().then(postBookingResponse => {
+            assertions.shouldHaveStatus(postBookingResponse, 200)
+            assertions.shouldHaveBeNotNull(postBookingResponse.body.bookingid)
+            assertions.shouldHaveBeLessThan(postBookingResponse.duration)
+        }) 
+    });
+});
